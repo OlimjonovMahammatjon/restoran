@@ -9,7 +9,7 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-this-in-produc
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['mahammatjon.pythonanywhere.com']
+ALLOWED_HOSTS = ['Mahammatjon.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
