@@ -118,7 +118,7 @@ class Order(models.Model):
         self.total_amount = total
         self.save()
         return total
-
+# sjbfsjhfsjhdfsjh 
 
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE, verbose_name="Buyurtma")
