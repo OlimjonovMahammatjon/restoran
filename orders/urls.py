@@ -10,6 +10,8 @@ router.register(r'orders', views.OrderViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('admin/', admin.site.urls),
+    path('api/', include('orders.urls')),
     path('table-by-qr/', views.get_table_by_qr, name='table-by-qr'),
     path('menu-by-category/', views.menu_by_category, name='menu-by-category'),
     path('dashboard-stats/', views.dashboard_stats, name='dashboard-stats'),

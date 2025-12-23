@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-this-in-production')
 
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['OlimjonovMahammatjon.pythonanywhere.com']
